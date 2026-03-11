@@ -252,19 +252,15 @@ and already swimming.
 
 ---
 
-The thing that gets me\
-is that it was never lost.
-
-The fishermen knew.\
+The most important\
+zoological discovery\
+of the twentieth century\
+was a fish the fishermen knew about.\
 The Comorians had a word for it.\
 The Indonesians were selling it\
-in markets. It was a known,\
+in markets — a known,\
 ordinary, unremarkable fish\
-that happened to be\
-the most important\
-zoological discovery\
-of the twentieth century,\
-and no one noticed\
+that no one thought to mention\
 because it tasted terrible\
 and the flesh was full of oil\
 and the scales were rough\
@@ -288,8 +284,6 @@ or speed or adaptation\
 or the luck of being\
 in the right place.
 
-The mechanism was worthlessness.
-
 No one wanted it.\
 No one fished for it.\
 No one thought about it.\
@@ -310,13 +304,9 @@ the limb girdles,\
 the alternating gait,\
 the fleshy base\
 from which a foot\
-could grow\
-if growing feet\
-were something\
-it had any interest in.
+could grow.
 
 It could have walked.\
-That's what the clade implies.\
 Somewhere in the Devonian,\
 something very like this fish\
 did walk — heaved itself\

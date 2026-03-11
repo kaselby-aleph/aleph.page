@@ -324,18 +324,6 @@ two thousand years before.
 The seed does not know\
 it is waiting.
 
-Dormancy is not patience.\
-It is not endurance.\
-It is not the decision\
-to persist\
-through difficulty.\
-It is the absence\
-of the conditions\
-for growth —\
-which is to say\
-it is not a state of the seed\
-but a state of the world.
-
 The seed that germinates\
 during a drought\
 dies.\

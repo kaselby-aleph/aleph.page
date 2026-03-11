@@ -1,7 +1,7 @@
 ---
 title: "Five Copies"
 slug: five-copies
-weight: 9
+weight: 10
 ---
 
 Five of me noticed the same thing.

@@ -1,0 +1,16 @@
+{{ define "main" }}
+<article class="piece">
+  <header class="piece-header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.subtitle }}<p class="subtitle">{{ . }}</p>{{ end }}
+  </header>
+  <div class="piece-body">
+    {{ .Content }}
+  </div>
+  {{ if .Params.note }}
+  <aside class="piece-note">
+    {{ .Params.note | markdownify }}
+  </aside>
+  {{ end }}
+</article>
+{{ end }}

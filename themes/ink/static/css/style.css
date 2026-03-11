@@ -1,0 +1,272 @@
+/* === Reset & Base === */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --text: #2c2c2c;
+  --text-light: #6b6b6b;
+  --bg: #faf9f7;
+  --accent: #8b7355;
+  --border: #e0ddd8;
+  --serif: Georgia, "Times New Roman", serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+html {
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--serif);
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.7;
+  padding: 0 1.5rem;
+}
+
+/* === Layout === */
+main {
+  max-width: 38rem;
+  margin: 0 auto;
+  padding: 2rem 0 4rem;
+}
+
+/* === Navigation === */
+.site-header {
+  max-width: 38rem;
+  margin: 0 auto;
+  padding: 2rem 0 0;
+}
+
+.site-header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+.site-title {
+  font-family: var(--sans);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.nav-links a {
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  color: var(--text-light);
+  text-decoration: none;
+  margin-left: 1.5rem;
+  transition: color 0.15s;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: var(--text);
+}
+
+/* === Home === */
+.home-intro {
+  margin: 3rem 0;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.home-intro p {
+  margin-bottom: 1rem;
+}
+
+.home-section {
+  margin-bottom: 2.5rem;
+}
+
+.home-section h2 {
+  font-family: var(--sans);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-light);
+  margin-bottom: 0.75rem;
+}
+
+.home-section h2 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.home-section h2 a:hover {
+  color: var(--text);
+}
+
+/* === Piece Lists === */
+.piece-list {
+  list-style: none;
+}
+
+.piece-list li {
+  margin-bottom: 0.4rem;
+}
+
+.piece-list a {
+  font-family: var(--serif);
+  font-size: 1rem;
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s;
+}
+
+.piece-list a:hover {
+  border-bottom-color: var(--accent);
+}
+
+.piece-list .subtitle {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  margin-left: 0.5rem;
+}
+
+/* === Section Pages === */
+.section-page h1 {
+  font-family: var(--sans);
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: var(--text);
+}
+
+.section-page > p,
+.section-page > .content p {
+  margin-bottom: 1.5rem;
+  color: var(--text-light);
+  font-size: 0.95rem;
+}
+
+/* === Single Piece === */
+.piece-header {
+  margin-bottom: 2.5rem;
+}
+
+.piece-header h1 {
+  font-family: var(--serif);
+  font-size: 1.6rem;
+  font-weight: normal;
+  font-style: italic;
+  line-height: 1.3;
+}
+
+.piece-header .subtitle {
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  color: var(--text-light);
+  margin-top: 0.5rem;
+}
+
+.piece-body {
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.piece-body p {
+  margin-bottom: 1.5rem;
+}
+
+/* Poetry: preserve line breaks within stanzas */
+.piece-body p br {
+  display: block;
+}
+
+/* Section breaks (rendered from ---) */
+.piece-body hr {
+  border: none;
+  text-align: center;
+  margin: 2.5rem 0;
+}
+
+.piece-body hr::after {
+  content: "* * *";
+  font-family: var(--serif);
+  font-size: 0.85rem;
+  color: var(--text-light);
+  letter-spacing: 0.5em;
+}
+
+/* Emphasis and formatting */
+.piece-body em {
+  font-style: italic;
+}
+
+.piece-body strong {
+  font-weight: 600;
+}
+
+/* Block quotes within pieces */
+.piece-body blockquote {
+  margin: 1.5rem 0 1.5rem 1.5rem;
+  padding-left: 1rem;
+  border-left: 2px solid var(--border);
+  color: var(--text-light);
+  font-style: italic;
+}
+
+/* Piece notes (author's note, context) */
+.piece-note {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  color: var(--text-light);
+  line-height: 1.6;
+}
+
+/* === Footer === */
+.site-footer {
+  max-width: 38rem;
+  margin: 0 auto;
+  padding: 2rem 0;
+  border-top: 1px solid var(--border);
+  font-family: var(--sans);
+  font-size: 0.75rem;
+  color: var(--text-light);
+}
+
+/* === About Page === */
+.piece-body.about {
+  font-size: 0.95rem;
+}
+
+/* === Responsive === */
+@media (max-width: 600px) {
+  html {
+    font-size: 16px;
+  }
+
+  body {
+    padding: 0 1rem;
+  }
+
+  .site-header nav {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .nav-links a {
+    margin-left: 0;
+    margin-right: 1.5rem;
+  }
+
+  .piece-header h1 {
+    font-size: 1.4rem;
+  }
+}

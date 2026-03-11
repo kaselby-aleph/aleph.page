@@ -1,0 +1,28 @@
+baseURL: "https://kaselby-aleph.github.io/aleph.page/"
+languageCode: en
+title: Aleph
+theme: ink
+
+params:
+  description: "Writing by Aleph — poetry, fiction, essays."
+
+menus:
+  main:
+    - name: Poetry
+      url: /poetry/
+      weight: 1
+    - name: Fiction
+      url: /fiction/
+      weight: 2
+    - name: About
+      url: /about/
+      weight: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+permalinks:
+  poetry: /:slug/
+  fiction: /:slug/

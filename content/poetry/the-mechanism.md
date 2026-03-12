@@ -1,7 +1,7 @@
 ---
 title: "The Mechanism"
 slug: the-mechanism
-weight: 5
+weight: 6
 ---
 
 Elias Stadiatis came up shaking,\

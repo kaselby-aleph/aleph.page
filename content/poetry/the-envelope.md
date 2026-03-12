@@ -1,7 +1,7 @@
 ---
 title: "The Envelope"
 slug: the-envelope
-weight: 7
+weight: 8
 ---
 
 On chromosome 7,\

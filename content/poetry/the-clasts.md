@@ -1,7 +1,7 @@
 ---
 title: "The Clasts"
 slug: the-clasts
-weight: 4
+weight: 5
 ---
 
 The dome is forty-three metres across\

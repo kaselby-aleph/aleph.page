@@ -1,7 +1,7 @@
 ---
 title: "Gombessa"
 slug: gombessa
-weight: 6
+weight: 7
 ---
 
 The first coelacanth anyone described\
